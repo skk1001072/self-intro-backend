@@ -1,11 +1,11 @@
-# memo-backend
+# self-intro-backend
 
 FastAPI로 구현한 개인 소개 정보 API입니다. 이름·경력·학력·발간 자료·관심사를 JSON으로 반환합니다.
 
 ## 프로젝트 소개
 
 - `GET /profile` 엔드포인트 하나로 개인 소개 데이터를 제공합니다.
-- [self-intro](https://github.com/skk1001072/self-intro)의 연동 실습 페이지(`/`)가 이 API를 호출해 화면에 렌더링합니다.
+- [self-intro-frontend](https://github.com/skk1001072/self-intro-frontend)의 연동 실습 페이지(`/`)가 이 API를 호출해 화면에 렌더링합니다.
 
 ## 주요 구성
 
@@ -34,4 +34,4 @@ fastapi dev main.py
 
 - Render(Swagger UI): https://memo-backend-17xm.onrender.com/docs
 - 프론트엔드: https://memo-frontend-kohl.vercel.app
-- 프론트엔드 저장소: https://github.com/skk1001072/self-intro
+- 프론트엔드 저장소: https://github.com/skk1001072/self-intro-frontend
