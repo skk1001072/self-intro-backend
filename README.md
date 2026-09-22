@@ -1,17 +1,17 @@
 # memo-backend
 
-FastAPI로 구현한 메모 CRUD API입니다. 데이터는 인메모리(파이썬 리스트)에 저장됩니다.
+FastAPI로 구현한 개인 소개 정보 API입니다. 이름·경력·학력·발간 자료·관심사를 JSON으로 반환합니다.
 
 ## 프로젝트 소개
 
-- `GET /memos`, `POST /memos`, `DELETE /memos/{id}` 세 개의 엔드포인트를 제공합니다.
-- [memo-frontend](https://github.com/skk1001072/memo-frontend)에서 이 API를 호출해 메모를 조회·추가·삭제합니다.
+- `GET /profile` 엔드포인트 하나로 개인 소개 데이터를 제공합니다.
+- [memo-frontend](https://github.com/skk1001072/memo-frontend)의 연동 실습 페이지(`/`)가 이 API를 호출해 화면에 렌더링합니다.
 
 ## 주요 구성
 
 | 파일 | 내용 |
 | --- | --- |
-| `main.py` | FastAPI 앱, CORS 설정, 엔드포인트 3종 |
+| `main.py` | FastAPI 앱, CORS 설정, `GET /profile` 엔드포인트 |
 | `requirements.txt` | 의존성 목록 |
 
 ## 로컬 실행
