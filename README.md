@@ -32,5 +32,6 @@ fastapi dev main.py
 
 ## 배포 주소
 
-- Render(Swagger UI): (배포 후 채우기)
-- 프론트엔드: https://github.com/skk1001072/memo-frontend
+- Render(Swagger UI): https://memo-backend-17xm.onrender.com/docs
+- 프론트엔드: https://memo-frontend-kohl.vercel.app
+- 프론트엔드 저장소: https://github.com/skk1001072/memo-frontend
